@@ -1,0 +1,9 @@
+export OBJECT_STORE_ENDPOINT_URL=https://storage.googleapis.com
+export OBJECT_STORE_KEY_ID=GOOG...
+export OBJECT_STORE_ACCESS_KEY=...
+export OBJECT_STORE_BUCKET=dotmesh_mnist_demo
+export DOTMESH_CLUSTER_URL=localhost
+export DOTMESH_USERNAME=admin
+export DOTMESH_API_KEY=password
+export DOTMESH_DOTNAME=dotmesh_mnist_demo
+python sync.py clone
